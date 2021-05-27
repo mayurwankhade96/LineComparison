@@ -6,9 +6,9 @@ namespace LineComparison
 {
     public class Line
     {
-        public void LengthOfLine(double x1,double y1,double x2, double y2)
+        public void LengthOfLine(double xOne,double yOne,double xTwo, double yTwo)
         {
-            double distanceBetwnTwoPoints = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+            double distanceBetwnTwoPoints = Math.Sqrt(Math.Pow(xTwo - xOne, 2) + Math.Pow(yTwo - yOne, 2));
             Console.WriteLine(distanceBetwnTwoPoints);
         }
     }
