@@ -7,10 +7,9 @@ namespace LineComparison
         static void Main()
         {
             Console.WriteLine("Welcome to Line Comparison Computation Program");
-            Line line = new Line();
-            Line line1 = new Line();
+            Line line = new LineLength();
             double firstLine = line.LengthOfLine(5, 7, 10, 12);
-            double secondLine = line1.LengthOfLine(4, 10, 6, 8);
+            double secondLine = line.LengthOfLine(4, 10, 6, 8);
 
             //to check equality
             if (firstLine.Equals(secondLine))
